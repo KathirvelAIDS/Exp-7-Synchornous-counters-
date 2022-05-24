@@ -46,13 +46,9 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-1.Create module projectname(input ,output) to start the verilog programming                                                                                                                           
-2.create a if loop condition to increase the count in counter_up function.
-
+1.Create module projectname(input ,output) to start the verilog programming                                                                                              2.create a if loop condition to increase the count in counter_up function.
 3.Similarly, create another loop for the down counter.
-
 4.End the verilog program using keyword endmodule.
-
 5.Get the timing diagram and RTL realization diagram for respective Counters.
 
 
@@ -86,10 +82,14 @@ endmodule
 
 DOWN COUNTER
 module dc(input clk,input reset,output[0:3]counter);
+
 reg[0:3] counter_down;
+
 always@(posedge clk or posedge reset)
+
 begin
-if(reset)
+
+if(reset)                                                                                                                                                                                    
 counter_down <=4'd0;
 else
 counter_down<=counter_down+4'd1;
