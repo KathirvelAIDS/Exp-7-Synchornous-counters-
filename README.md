@@ -154,4 +154,4 @@ endmodule
 
 
 
-Thus 4 bit up and down counters is implemented and its functionality is validated.
+Thus 4 bit up and down counters is implemented and its functionality is validated
