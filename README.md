@@ -64,12 +64,12 @@ RegisterNumber:  212221230047
 UP COUNTER:-
 
 
-module uc(input clk,input reset,output[0:3]counter);                                                                                                                  
-reg[0:3] counter_up;                                                                                                                                                  
+module now(input clk,input reset,output[0:3]counter);
+reg[0:3] counter_up;
 always@(posedge clk or posedge reset)
 begin
 if(reset)
-counter_up<=4'd0;
+counter_up <=4'd0;
 else
 counter_up<=counter_up+4'd1;
 end
@@ -81,22 +81,22 @@ endmodule
 
 
 
-DOWN COUNTER:-
 
+DOWN COUNTER:-
 module dc(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_down;
 always@(posedge clk or posedge reset)
 begin
 if(reset)
-counter_down<=4'd0;
+counter_down <=4'd0;
 else
-counter_down<=counter_down-4'd1;
+counter_down<=counter_down+4'd1;
 end
 assign counter=counter_down;
 endmodule
 
 
-~~
+
 
 
 
