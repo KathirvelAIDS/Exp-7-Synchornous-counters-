@@ -121,7 +121,8 @@ endmodule
 ### TIMING DIGRAMS FOR COUNTER  
 
 
-![image](https://user-images.githubusercontent.com/94911373/169952885-7712bd3e-ebcf-41c4-b7ad-0e0756fdcefb.png) 
+![image](https://user-images.githubusercontent.com/94911373/169965008-e74fd11b-c51e-4cab-b894-75b3baef3fd1.png)
+ 
 
 
 
