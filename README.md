@@ -64,8 +64,8 @@ RegisterNumber:  212221230047
 UP COUNTER:-
 
 
-module uc(input clk,input reset,output[0:3]counter);
-reg[0:3] counter_up;
+module uc(input clk,input reset,output[0:3]counter);                                                                                                                  
+reg[0:3] counter_up;                                                                                                                                                  
 always@(posedge clk or posedge reset)
 begin
 if(reset)
