@@ -77,7 +77,6 @@ end
 assign counter=counter_up;
 endmodule
 
-/~~
 
 
 
@@ -97,7 +96,7 @@ assign counter=counter_down;
 endmodule
 
 
-~~
+
 
 
 
