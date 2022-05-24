@@ -61,6 +61,8 @@ RegisterNumber:  212221230047
 
 
 
+
+
 UP COUNTER
 module now(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_up;
@@ -73,6 +75,10 @@ counter_up<=counter_up+4'd1;
 end
 assign counter=counter_up;
 endmodule
+
+
+
+
 
 
 DOWN COUNTER
@@ -90,7 +96,6 @@ endmodule
 
 
 
-RTL LOGIC UP COUNTER AND DOWN COUNTER
 
 
 
@@ -118,7 +123,10 @@ RTL LOGIC UP COUNTER AND DOWN COUNTER
 ### TIMING DIGRAMS FOR COUNTER  
 
 
-![image](https://user-images.githubusercontent.com/94911373/169952885-7712bd3e-ebcf-41c4-b7ad-0e0756fdcefb.png)
+![image](https://user-images.githubusercontent.com/94911373/169952885-7712bd3e-ebcf-41c4-b7ad-0e0756fdcefb.png) 
+
+
+
 
 
 
@@ -132,7 +140,11 @@ RTL LOGIC UP COUNTER AND DOWN COUNTER
 
 
 
+
+
 ![image](https://user-images.githubusercontent.com/94911373/169952922-76cf4ee0-a693-4b31-b2e7-28fed02c22a7.png)
+
+
 
 
 
