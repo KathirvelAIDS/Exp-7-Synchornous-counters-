@@ -158,5 +158,4 @@ endmodule
 ### RESULTS 
 
 
-
 Thus 4 bit up and down counters is implemented and its functionality is validated
